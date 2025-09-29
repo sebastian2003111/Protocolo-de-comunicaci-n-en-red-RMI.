@@ -10,7 +10,6 @@ public class ChatImpl extends UnicastRemoteObject implements Chat {
 
     @Override
     public String enviarMensaje(String nombre, String mensaje) throws RemoteException {
-        return "📩 [" + nombre + "]: " + mensaje;
+        return "Servidor [" + nombre + "]: " + mensaje;
     }
 }
-
